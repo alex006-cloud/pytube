@@ -29,5 +29,5 @@ SOFTWARE.
 
 """
 
-from .pyyoutube import Data 
-from .search_video import Search
+from .pytube import Data 
+from .search import Search
