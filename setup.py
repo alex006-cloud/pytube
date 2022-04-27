@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="pytube",
-    version="0.0.1",
+    version="0.2.1",
     author="AlexGmB",
     author_email="None",
     description="Python library Get YouTube Video Data",
