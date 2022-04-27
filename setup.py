@@ -2,12 +2,12 @@ import setuptools
 import pathlib
 
 
+file = pathlib.Path(__file__).parent
+
 def read(file: str) -> list:
     with open(file, encoding="utf-8") as r:
         return [i.strip() for i in r]
 
-
-file = pathlib.Path(__file__).parent
 
 README = (file / "README.md").read_text()
 
