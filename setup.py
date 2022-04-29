@@ -1,22 +1,10 @@
-import pathlib
 import setuptools
-
-
-def read(file: str) -> list:
-    with open(file, "r") as r:
-        return [i.strip() for i in r]
-
-
-file = pathlib.Path(__file__).parent
-
-README = (file / "README.md").read_text()
 
 setuptools.setup(
     name="pytube",
     version="1.2.1",
     author="mrlokaman&AlexGmd",
     author_email="ln0technical@gmail.com",
-    long_description = README,
     description="Python library Get YouTube Video Data",
     license="MIT",
     url="https://github.com/alex006-cloud/pytube",
@@ -26,6 +14,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages=setuptools.find_packages(),
-    install_requires = read(file),
     python_requires=">=3.6"
 )
