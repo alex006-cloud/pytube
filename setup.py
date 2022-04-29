@@ -3,7 +3,7 @@ import setuptools
 
 
 def read(file: str) -> list:
-    with open(file, encoding="utf-8") as r:
+    with open(file, encoding="utf-8", r) as r:
         return [i.strip() for i in r]
 
 
@@ -26,6 +26,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     packages=setuptools.find_packages(),
-    install_requires = read(""),
+    install_requires = read(file),
     python_requires=">=3.6"
 )
