@@ -17,7 +17,6 @@ setuptools.setup(
     author="mrlokaman&AlexGmd",
     author_email="ln0technical@gmail.com",
     long_description = README,
-    long_description_content_type = "text/markdown",
     description="Python library Get YouTube Video Data",
     license="MIT",
     url="https://github.com/alex006-cloud/pytube",
