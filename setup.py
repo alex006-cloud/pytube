@@ -3,7 +3,7 @@ import setuptools
 
 
 def read(file: str) -> list:
-    with open(file, encoding="utf-8", r) as r:
+    with open(file, encoding="utf-8") as r:
         return [i.strip() for i in r]
 
 
