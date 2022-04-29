@@ -13,7 +13,7 @@ README = (file / "README.md").read_text()
 
 setuptools.setup(
     name="pytube",
-    version="1.1.3",
+    version="1.2.1",
     author="mrlokaman&AlexGmd",
     author_email="ln0technical@gmail.com",
     long_description = README,
